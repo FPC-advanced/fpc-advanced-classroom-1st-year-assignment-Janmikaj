@@ -6,7 +6,7 @@ void output(float base, float height, float area);
 int main()
 {
     float base,height,area;
-    intput(&base,&height);
+    input(&base,&height);
     find_area(base,height,&area);
     output(base,height,area);
     return 0;
