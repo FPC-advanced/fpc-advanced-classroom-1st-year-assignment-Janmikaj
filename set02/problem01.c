@@ -13,9 +13,9 @@ int main()
 void input(float *base, float *height)
 {
     printf("Enter the value of base\n");
-    scanf("%f",&base);
+    scanf("%f",base);
     printf("Enter the value of height\n");
-    scanf("%f",&height);
+    scanf("%f",height);
 }
 void find_area(float base , float height, float *area)
 {
