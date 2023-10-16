@@ -1,0 +1,23 @@
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c: In function 'main':
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:8:5: warning: implicit declaration of function 'intput' [-Wimplicit-function-declaration]
+     intput(&base,&height);
+     ^~~~~~
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c: In function 'input':
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:15:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the value of base\n");
+     ^~~~~~
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:15:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:15:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:16:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f",&base);
+     ^~~~~
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:16:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:16:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c: In function 'output':
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:26:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The area of the triangle is %f",area);
+     ^~~~~~
+c:\Users\prath\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Janmikaj\set02\problem01.c:26:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+C:\Users\prath\AppData\Local\Temp\ccc5roRZ.o: In function `main':
+c:/Users/prath/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Janmikaj/set02/problem01.c:8: undefined reference to `intput'
+collect2.exe: error: ld returned 1 exit status
