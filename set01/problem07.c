@@ -3,6 +3,7 @@
 int input();
 int sum_n_nos(int n);
 void sum(int n, int sum);
+void output(int n,int sum);
 int main()
 {
     int n,sum;
